@@ -161,13 +161,13 @@ The manager organizes the entire process.
 * Multi-step workflows
 * Multi-agent systems
 ---
-# When You May Not Need LangChain
+When You May Not Need LangChain
+
 Simple applications like:
-```python
+
 response = llm.invoke("What is Python?")
-```
+
 If you're only making a single LLM call, plain Python is often sufficient.
----
 
 # Evolution of AI Applications
 
