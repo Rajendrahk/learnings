@@ -1,0 +1,41 @@
+1. how to avoid duplicate in RAG
+
+2. Name some transformers - GPT, BERT
+
+3. What is Encoder transform, & Decoder Transfrom.
+
+4. What is context window.
+
+5. what is GROQ - "I'm using Groq," they usually mean they're running an AI model on Groq's high-performance inference platform, 
+not that they're using a different kind of language model.
+
+6. An AI agent is a computer program that can observe, make decisions, and perform tasks to achieve a goal.
+
+7. Agent = Model + Harness
+
+Model: The AI itself—the large language model (LLM) that can understand language, reason, and generate responses.
+Harness: The surrounding software that gives the model capabilities such as:
+Access to tools (search, calculators, databases, APIs)
+Memory or state across steps
+Planning and task management
+Safety checks and permissions
+The ability to execute code or take actions
+Feedback loops to observe results and try again if needed
+Example
+Suppose you ask:
+
+"Book the cheapest flight to Delhi for next Friday and add it to my calendar."
+
+Model: Understands your request, reasons about the steps, and decides what needs to be done.
+Harness: Connects to flight search APIs, compares prices, asks for confirmation if required, books the ticket (if authorized), and creates the calendar event.
+
+8.when we use Agent & when we use workflow
+Use a Workflow when...The sequence of actions is known in advance.Processing invoices/Sending welcome emails/ETL/data pipelines
+Use an Agent when...The AI needs to reason, choose actions, or adapt based on what it finds.Customer support assistant/Research assistant/Coding assistant/Travel planner/Data analysis assistant
+Goal:"Find the best laptop under $1000."
+Agent:
+✓ Searches websites
+✓ Compares specifications
+✓ Reads reviews
+✓ Asks follow-up questions
+✓ Produces recommendations
